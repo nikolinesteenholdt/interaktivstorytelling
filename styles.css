@@ -1,4 +1,5 @@
 body{
+    overflow-x: hidden;
     margin: 0%;
     padding: 0%;
     background-color: #e7a6b4;
@@ -39,4 +40,177 @@ body{
 #video, video{
     width: 100%;
 }
+
+#tidslinje{
+    width: 30vw;
+    margin-top: 15vw;
+}
+
+#billedeafann{
+    width: 30vw;
+    border: none;
+    background-color: #e7a6b4;
+}
+
+#annmedlyd{
+    margin-left: 8vw;
+    padding: 2vw;
+}
+
+#speaker{
+    width: 5vw;
+}
+
+/*tekst og overskrift*/
+h1{
+    font-family: 'Agbalumo', sans-serif;
+    color: #28307e;
+    font-size: 30pt;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 3vh;
+    color:black;
+}
+
+#overskriftpaablob{
+    position: absolute;
+    bottom: 38vw;
+    left: 18vw;
+
+}
+
+#tekst_venstre{
+    margin-left:10vw ;
+}
+
+#tekst_hoejre{
+    z-index: 2;
+    margin-left: 10vw;
+ 
+}
+
+#holdmusen{
+    margin-left: 9vw;
+}
+
+#pladsholder{
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+}
+
+#videoogtekst{
+    display: flex;
+}
+
+#tekstcorona{
+    text-align: center;
+    padding: 4vw;
+}
+
+#moerkeblaapladsholder{
+    width: 100%;
+    height: 150vh;
+    background-color: #28307e;
+}
+
+
+/*blobs*/
+#container{
+    position: relative;
+}
+
+#blobmedlinje{
+    width: 70vw;
+    margin-left: 10vw;
+    transform: rotate(-10deg);
+    display: flex;  
+}
+
+#blobmedlinje_hoejre{
+    transform: rotate(170deg);
+    width: 30vw;
+    margin-left: 5vw;
+    margin-top: 30vw;
+    z-index: 1;
+}
+
+#blobtop{
+    z-index: 1;
+    position: absolute;
+    bottom: 45vw;
+    left: 5vw;
+}
+
+#storblob_venstre{
+    z-index: 1;
+    position: absolute;
+    bottom: -10vw;
+}
+
+#blob_hoejre{
+    z-index: 1;
+    position: absolute;
+    left: 85vw;
+    bottom: 4vw;
+}
+
+#langblaablob_venstre{
+    width: 50vw;
+}
+
+#lilleblaablob{
+    width:12vw ;
+}
+
+#miniblaablob{
+    width: 8vw;
+    position: absolute;
+    bottom: -120vh;
+    left: 65vw;
+}
+
+#blaablob_lodret{
+    width: 40vh;
+    float: right;
+    z-index: -3;
+    
+}
+
+#blobtofarver_venstre{
+    width: 40vw;
+    margin-top: 5vh;
+}
+
+#blobmoerkeblaa_hoejre{
+    width: 30vw;
+    position: absolute;
+    top: 580vh;
+    left: 70vw;
+
+}
+
+#storpinkblob_venstre{
+    width: 30vw;
+    margin-top: 170vh;
+}
+
+#blaablob_vandret{
+    width: 100%;
+    margin-bottom: -2vh;
+    padding: 0;
+}
+
+#blobtrefarver{
+    width: 25vw;
+    margin-top: 15vh;
+    margin-left: 10vw;
+}
+
+#flerefarvedeblob{
+    display: flex;
+}
+
 
