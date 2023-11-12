@@ -42,12 +42,11 @@ body{
 }
 
 #tidslinje{
-    width: 30vw;
-    margin-top: 15vw;
+    width: 100%;
 }
 
 #billedeafann{
-    width: 30vw;
+    width: 40vw;
     border: none;
     background-color: #e7a6b4;
 }
@@ -59,6 +58,16 @@ body{
 
 #speaker{
     width: 5vw;
+    margin-left: 28vw;
+    margin-top: -1vw;
+}
+
+#billedekarussel {
+    display: block;
+    width: 40vw;
+    margin-left: 30vw;
+    padding-top: 4vw;
+    transition: 0,3s;
 }
 
 /*tekst og overskrift*/
@@ -87,27 +96,32 @@ p{
 
 #tekst_hoejre{
     z-index: 2;
-    margin-left: 10vw;
- 
+    margin-left: 3vw;
+    margin-top: 19vh; 
 }
 
 #holdmusen{
-    margin-left: 9vw;
+    margin-left: 14vw;
 }
 
 #pladsholder{
     width: 50vw;
     height: 50vh;
-    background-color: white;
 }
 
 #videoogtekst{
     display: flex;
 }
 
-#tekstcorona{
+#tekstimidten{
     text-align: center;
+}
+
+#tekstcorona{
+    display: inline block; 
+    text-align: left;
     padding: 4vw;
+    margin-left: 25vw;
 }
 
 #moerkeblaapladsholder{
@@ -115,6 +129,24 @@ p{
     height: 150vh;
     background-color: #28307e;
 }
+
+#ambition_tekst{
+    float: right;
+    width: 55vw;
+    height: 35vw;
+    padding: 2vw;
+}
+
+#overskrift_lyd{
+    text-align: center;
+    z-index: 2;
+    margin-top: -60vh;
+}
+
+#vaerkstedlyd{
+  margin-left: 42vw;
+}
+
 
 
 /*blobs*/
@@ -168,14 +200,14 @@ p{
 #miniblaablob{
     width: 8vw;
     position: absolute;
-    bottom: -120vh;
+    bottom: -180vh;
     left: 65vw;
 }
 
 #blaablob_lodret{
     width: 40vh;
     float: right;
-    z-index: -3;
+    z-index: -5;
     
 }
 
@@ -187,19 +219,21 @@ p{
 #blobmoerkeblaa_hoejre{
     width: 30vw;
     position: absolute;
-    top: 580vh;
+    top: 680vh;
     left: 70vw;
 
 }
 
 #storpinkblob_venstre{
     width: 30vw;
-    margin-top: 170vh;
+    margin-top: 10vh;
+    z-index: -2;
 }
 
 #blaablob_vandret{
     width: 100%;
     margin-bottom: -2vh;
+    margin-top: 50vh ;
     padding: 0;
 }
 
@@ -212,5 +246,6 @@ p{
 #flerefarvedeblob{
     display: flex;
 }
+
 
 
